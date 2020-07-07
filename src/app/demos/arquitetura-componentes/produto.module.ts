@@ -1,3 +1,4 @@
+import { ProdutoAppComponent } from './componentes/produto.app.component';
 import { NgModule } from '@angular/core';
 import { CommonModule, registerLocaleData } from '@angular/common';
 
@@ -14,6 +15,7 @@ import { EditarProdutoComponent } from './editar-produto/editar-produto.componen
 
 @NgModule({
     declarations: [
+        ProdutoAppComponent,
         ProdutoDashboardComponent,
         ProdutoDetalheComponent,
         ProdutoCountComponent,
